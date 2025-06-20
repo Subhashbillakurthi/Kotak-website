@@ -1,0 +1,30 @@
+.nav3{
+    visibility: hidden;
+}
+
+.hero-sec-buss{
+    background-image: url("https://www.kotak.com/content/dam/Kotak/herosliderbanner/ca-d.jpg");
+    height:400px;
+    margin-top: 10px;
+}
+.hero-sec-1-buss{
+    width: 1140px;
+    position: relative;
+    top: 130px;
+    left: 90px;
+}
+.hero-sec-buss h1{
+    color:rgb(12, 2, 3);
+    font-size: 44px;
+    font-weight: 700;
+}
+.hero-sec-buss p{
+    color: rgb(0, 0, 90);
+    margin: 0 0 10px;
+    padding: 10px;
+    padding-left: 0px;
+}
+.btn{
+    padding: 20px;
+    padding-left: 0px;
+}

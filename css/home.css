@@ -1,0 +1,545 @@
+* {
+  margin: 0;
+  padding:0 ;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(90deg, #f00 76.9%, #036 30%);
+    height:61px;
+}
+#kotak-logo1{
+    height: 29px;
+    width: 107px;
+}
+.bod-li{
+    border-top: 4px solid white;
+    border-radius: 0 0 8px 8px;
+    padding: 21px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.nav-items{
+    display: flex;
+    gap:15px;
+    position: relative;
+    right: 4.5rem;
+}
+.nav-items li{
+    list-style: none;
+}
+.nav-items li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13.5px;
+    font-weight: bold;
+}
+.login{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #fff;
+    padding: .8rem 1rem;
+    border-radius: 10rem;
+    height:41px;
+    width: 106px;
+    background-color: #fff;
+
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+}
+.login-link{
+    color: #013366;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14.5px;
+}
+.right-nav{
+    display: flex;
+    gap:20px;
+    position: relative;
+    right:20px
+}
+.nav-bar-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+}
+.nav-items-2{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap:15px;
+    position: relative;
+    left: 20px;
+}
+.nav-items-2 li{
+    list-style: none;
+}
+.nav-items-2 li a{
+    text-decoration: none;
+    color: #999;
+    font-size: 14px;
+    background-color: transparent
+}
+.bol-li-hover:hover{
+    color: black;
+    font-weight: bold;
+    border-bottom: 4px solid red;
+    border-radius: 5px;
+    padding: 18px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+.help-locate-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    height: 41.5px;
+    width: 131px;
+    background-color: rgba(10, 104, 204, 0.0588235294);
+    border: .1rem solid rgba(10, 104, 204, 0.0784313725);
+    border-radius: 100px;
+}
+.login-link-1{
+    text-decoration: none;
+    color: #0a68cc;
+    font-weight: bold;
+    font-size: 13.5px;
+}
+.help-locate-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    height: 41.5px;
+    width: 131px;
+    background-color: rgba(10, 104, 204, 0.0588235294);
+    border: .1rem solid rgba(10, 104, 204, 0.0784313725);
+    border-radius: 100px;
+    position: relative;
+    right: 50px;
+}
+.login-link-2{
+    text-decoration: none;
+    color: #0a68cc;
+    font-weight: bold;
+    font-size: 13.5px;
+}
+.ad-drop-box{
+    display: none;
+}
+#aandd:hover .ad-drop-box{
+    display: block;
+}
+.drop-acc{
+    height: 440px;
+    width: 1170px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    gap:100px;
+    position: relative;
+    left:90px
+}
+.drop-down-1{
+    padding: 20px;
+}
+.drop-1 li{
+    list-style: none;
+    padding: 3px;
+    padding-left: 0px;
+}
+.drop-1 li a{
+    text-decoration: none;
+    color: #999;
+    font-size: 13px;
+} 
+.head-sec-drop{
+    color: #0a68cc;
+    font-weight: bold;
+    font-size: 14px
+}
+.head-sec-drop-1{
+    color: #0a68cc;
+    font-weight: bold;
+    padding: 10px;
+    padding-top: 5px;
+    padding-left: 0px;
+    font-size: 14px
+}
+.hero-sec{
+    background-image: url("https://www.kotak.com/content/dam/Kotak/herosliderbanner/kotak-brand-girl-cc-banner-1440-x-548.jpg");
+    height:547px;
+}
+.hero-sec-1{
+    width: 1140px;
+    position: relative;
+    top: 180px;
+    left: 90px;
+}
+.hero-sec h1{
+    color:rgb(250, 20, 50);
+    font-size: 44px;
+    font-weight: 700;
+}
+.hero-sec p{
+    color: rgb(0, 0, 90);
+    margin: 0 0 10px;
+    padding: 10px;
+    padding-left: 0px;
+}
+#cardblock{
+    background: #ed4223;
+    border-color: #ed4223;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 18px;
+    height: 47px;
+    border-radius: 3px;
+    position: relative;
+    top: 10 px;
+}
+.title-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    padding: 64px 0 20px;
+    background-color: #ececed;
+}
+.bgcolour{
+    background-color: #ececed;
+}
+.title-card-container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    padding: 20px 0 20px;
+    background-color: #ececed;
+}
+.title-card{
+    width: 350px;
+    height: 505px;
+    border-radius: 5px;    
+    /* box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2); */
+    background-color: white;
+}
+#title-card-1{
+    border-radius: 10px;  
+    width: 100%;
+}
+#title-card-2{
+    color: #333;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 0 10px;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+.title-card-3{
+    color: #333;
+    font-weight: 500;
+    font-size: 28px;
+}
+.tc3{
+    padding-top: 0px;
+    padding: 15px;
+    padding-left: 20px;
+}
+.title-card-4{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 23px;
+    padding-left: 20px;
+    color: #000;
+}
+#title-card-5{
+    padding: 20px;
+    padding-top: 40px;
+}
+#title-card-5 a{
+    color: red;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+}
+.media-video{
+    height: 480px;
+    width: 749px;
+    padding:50px;
+    border-radius: 10px;
+    background-color: white;
+}
+.hero-sec-container{
+    background-color: #ececed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.title-card-hero{
+    width: 360px;
+    height: 475px;
+    border-radius: 5px;    
+    /* box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2); */
+    background-color: white;
+}
+#title-card-2-hero{
+    color: #333;
+    font-weight: 600;
+    font-size: 23px;
+    margin: 0 0 10px;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+#title-card-1-hero{
+    border-radius: 20px; 
+    padding: 20px; 
+    width: 100%;
+}
+.title-card-4-hero{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 23px;
+    padding-left: 20px;
+    color: #000;
+}
+.bol{
+    font-weight: bold;
+}
+#know{
+   background-color: #ececed; 
+   text-align: center;
+   color: #0f3464;
+    font-weight: 600;
+    margin: 50px 0px 20px
+}
+.know1{
+    font-size: 22px;
+}
+.hero-sec-container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.hero-4{
+    width: 780px;
+    height: 506px;
+    background-image: url(https://www.kotak.com/content/dam/Kotak/article-images/who-is-a-co-applicant-and-the-benefits-to-co-applicant-for-home-loan-article.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.hero-bg{
+    background: rgba(0, 0, 0, .5);
+    width: 780px;
+    height: 186px;
+    border-radius: 0px;
+    color: white;
+    padding: 30px;
+    position: relative;
+    top: 320px;
+}
+.hero-5{
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 3px;
+    padding: 10px;
+}
+.hero-6{
+    font-size: 22px;
+    font-weight: 300;
+    padding-top: 3px;
+    padding: 10px;
+}
+.hero-7{
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 3px;
+    padding: 10px;
+}
+.hero-4-1{
+    width: 360px;
+    height: 492px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+.hero-4-1-img{
+    width: 70px;
+    height: 39px;
+    margin:5px;
+    float: left;
+}
+.hero-4-1-p-0{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    color: #101010;
+    position: relative;
+    top: 5px;
+    margin-bottom: 12px;
+    margin: 0 0 12px;
+}
+.hero-4-1-p{
+    font-family: 'Roboto';
+    font-size: 13px;
+    color: #6d6a6a;
+    margin:3px;
+    position: relative;
+    top: 7px;
+    left: 2px;
+}
+.hero-row{
+    padding: 15px;
+}
+.hero-4-1 hr{
+    width: 80%;
+}
+
+.hero-4-1-p-0-1{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    color: red;
+    position: relative;
+    margin: 12px;
+    margin-left: 0px;
+    left: 30px;
+}
+.needhelp{
+    width: 219px;
+    height: 77px;
+    background-color: white;
+    display: flex;
+    gap:5px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 6px;
+    border-radius: 10px;
+}
+.needhelp-p-1{
+    font-size: 14px;
+    color: #333;
+}
+
+.needhelp-p-2{
+    font-size: 12px;
+    color: #707070;
+    font-weight: 400px;
+}
+
+.needhelp-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.back-top{
+    width: 1440;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: white;
+    font-size: 22px;
+    
+}
+.back-top-1{
+    position: relative;
+    right:150px;
+    font-weight: lighter;   
+}
+
+footer{
+    background-color: #ececed;
+}
+.footer-content-main{
+    padding: 100px;
+    padding-top: 50px;
+}
+.footer-content{
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+.footer-content p {
+    font-size: 13px;
+    margin: 0 0 10px;
+}
+.footer-content-1{
+
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+.footer-content-1 p {
+    font-size: 13px;
+    margin: 0 0 10px;
+}
+.footer-content-2{
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+.footer-content-2 p {
+    font-size: 13px;
+    margin: 0 0 10px;
+}
+
+.footer-bottom{
+    background-color: #ececed;
+    width: 200px;
+    padding: 10px;
+    bottom: 0;
+}
+.footer-bottom h4{
+    font-size: 13px;
+}
+.footer-bottom ul{
+    margin: 10px;
+    margin-left: 0px;
+}
+.footer-bottom li{
+    list-style: none;
+    padding: 3px;
+}
+
+.footer-bottom li a{
+    text-decoration: none;
+    color: #666;
+    font-size: 13px;
+}
+.footer-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.h4{
+    padding: 5px;
+}
+.copyright1{
+    background-color: #e0e0e0;
+}
+.copyright{
+    font-size: 12px;
+    color: #333;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e0e0;
+}

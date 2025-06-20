@@ -1,0 +1,45 @@
+.nav3{
+    visibility: hidden;
+}
+.nav-bar-2{
+    background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 5;
+}
+.hero-sec-prvb{
+    background-image: url("https://www.kotak.com/content/dam/Kotak/herosliderbanner/private-banking-d.jpg");
+    height:400px;
+    margin-top: 10px;
+}
+.hero-sec-1-prvb{
+    width: 1140px;
+    position: relative;
+    top: 180px;
+    left: 100px;
+}
+.hero-sec-prvb h1{
+    color: rgb(202, 158, 88);;
+    font-size: 44px;
+    font-weight: 700;
+}
+.nav-div{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.nav-div-1 a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.nav-div-3{
+    font-size: 14px;
+    color: rgba(115, 109, 109, 0.582);
+}
+.nav-div-3{
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}

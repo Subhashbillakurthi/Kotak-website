@@ -1,0 +1,31 @@
+.nav3{
+    visibility: hidden;
+}
+
+.hero-sec-cop{
+    background-image: url("https://www.kotak.com/content/dam/Kotak/herosliderbanner/fyn-main-web-banner.jpg");
+    height:400px;
+    margin-top: 10px;
+    
+}
+.hero-sec-1-cop{
+    width: 1140px;
+    position: relative;
+    top: 90px;
+    left: 90px;
+}
+.hero-sec-cop h1{
+    color:rgb(12, 2, 3);
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.hero-sec-cop p{
+    color: rgb(38, 37, 37);
+    margin: 0 0 10px;
+    padding-left: 0px;
+}
+.btn{
+    padding: 20px;
+    padding-left: 0px;
+}
