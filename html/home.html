@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="../image/png-clipart-kotak-mahindra-bank-logo-thumbnail-bank-logos.png"
         type="image/x-icon">
     <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 
 <body>
@@ -18,7 +19,7 @@
             </div>
             <div>
                 <ul class="nav-items">
-                    <li ><a class="bod-li" href="home.html">Personal</a></li>
+                    <li><a class="bod-li" href="home.html">Personal</a></li>
                     <li><a href="Business.html">Business</a></li>
                     <li><a href="Corporate.html">Corporate</a></li>
                     <li><a href="PrivateBanking.html">Private Banking</a></li>
@@ -42,13 +43,13 @@
         </div>
         <div class="nav-bar-2">
             <ul class="nav-items-2">
-                <li><a class="nav2 bol-li-hover" href="#">Accounts & Deposits</a></li>
-                <li><a class="nav2 bol-li-hover" href="#">Cards & Prepaid Services</a></li>
-                <li><a class="nav2 bol-li-hover" href="#">Loans</a></li>
-                <li><a class="nav2 bol-li-hover" href="#">Investment & Insurance</a></li>
-                <li><a class="nav2 bol-li-hover" href="#">Payments & Taxes</a></li>
-                <li><a class="nav2 bol-li-hover" href="#">Offers</a></li>
-                <li><a class="nav2 bol-li-hover" href="#">Service Request</a></li>
+                <li id="dom-drop-1"><a class="nav2 bol-li-hover" href="#">Accounts & Deposits</a></li>
+                <li id="dom-drop-2"><a class="nav2 bol-li-hover" href="#">Cards & Prepaid Services</a></li>
+                <li id="dom-drop-3"><a class="nav2 bol-li-hover" href="#">Loans</a></li>
+                <li id="dom-drop-4"><a class="nav2 bol-li-hover" href="#">Investment & Insurance</a></li>
+                <li id="dom-drop-5"><a class="nav2 bol-li-hover" href="#">Payments & Taxes</a></li>
+                <li id="dom-drop-6"><a class="nav2 bol-li-hover" href="#">Offers</a></li>
+                <li id="dom-drop-7"><a class="nav2 bol-li-hover" href="#">Service Request</a></li>
             </ul>
             <div class="help-locate-1">
                 <img src="https://www.kotak.com/content/dam/Kotak/svg-icons/navigation/help-web.svg" alt="loginicon"
@@ -62,384 +63,758 @@
             </div>
         </div>
     </header>
-    <div class="ad-drop-box">
-        <div class="drop-acc">
-            <div class="drop-down-1">
-                <ul class="drop-1">
-                    <p class="head-sec-drop">Savings Account</p>
-                    <li><a href="#">Senior Citizen Savings Account</a></li>
-                    <li><a href="#">ActivMoney Savings Account</a></li>
-                    <li><a href="#">Everyday Savings Account</a></li>
-                    <li><a href="#">811 Zero Balance Account</a></li>
-                    <li><a href="#">Ace Savings Account</a></li>
-                    <li><a href="#">Silk Womens Savings Account</a></li>
-                </ul>
-                <ul class="drop-1">
-                    <p class="head-sec-drop">Current Accounts</p>
-                    <li><a href="#">Global Trade Current Account</a></li>
-                    <li><a href="#">Startup Premium Current Account</a></li>
-                    <li><a href="#">Pro Current Account</a></li>
-                    <li><a href="#">Startup Regular Current Account</a></li>
-                    <li><a href="#">Astra 15 Current Account</a></li>
-                </ul>
-            </div>
-            <div class="drop-down-1">
-                <p class="head-sec-drop-1">Solitaire</p>
-                <p class="head-sec-drop-1">Solitaire Business</p>
-                <ul class="drop-1">
-                    <p class="head-sec-drop">Privy League</p>
-                    <li><a href="#">Privy Black</a></li>
-                    <li><a href="#">Privy Platinum</a></li>
-                    <li><a href="#">Privy Neon</a></li>
-                </ul>
-                <ul class="drop-1">
-                    <p class="head-sec-drop">Salary Accounts</p>
-                    <li><a href="#">Everyday Account</a></li>
-                    <li><a href="#">Kotak Crème</a></li>
-                    <li><a href="#">Ace Salary Account</a></li>
-                    <li><a href="#">NationBuilders Salary Account</a></li>
-                    <li><a href="#">Edge Salary Account</a></li>
-                    <li><a href="#">Corporate Salary Privy League Programme</a></li>
-                </ul>
-            </div>
-            <div class="drop-down-1">
-                <ul class="drop-1">
-                    <p class="head-sec-drop">Other Accounts</p>
-                    <li><a href="#">Stocks</a></li>
-                </ul>
-                <ul class="drop-1">
-                    <p class="head-sec-drop">Service Requests</p>
-                    <li><a href="#">Check your last 5 transactions</a></li>
-                    <li><a href="#">Know your account balance</a></li>
-                    <li><a href="#">Activate / Deactivate Passbook</a></li>
-                    <li><a href="#">NACH Cancellation</a></li>
-                    <li><a href="#">Change of Home Branch</a></li>
-                    <li><a href="#">Report fraud / Raise Dispute</a></li>
-                </ul>
-                <ul class="drop-1">
-                    <p class="head-sec-drop">Deposits</p>
-                    <li><a href="#">Fixed Deposit</a></li>
-                    <li><a href="#">Recurring Deposit</a></li>
-                    <li><a href="#">Tax Saving Fixed Deposit</a></li>
-                    <li><a href="#">Senior Citizen Fixed Deposit</a></li>
-                    <li><a href="#">Fixed Deposit Calculator</a></li>
-                    <li><a href="#">Recurring Deposit Calculator</a></li>
-                </ul>
-            </div>
+    <!-- <div class="ad-drop-box"> -->
+    <div class="drop-acc">
+        <div class="drop-down-1">
+            <ul class="drop-1">
+                <p class="head-sec-drop">Savings Account</p>
+                <li><a href="#">Senior Citizen Savings Account</a></li>
+                <li><a href="#">ActivMoney Savings Account</a></li>
+                <li><a href="#">Everyday Savings Account</a></li>
+                <li><a href="#">811 Zero Balance Account</a></li>
+                <li><a href="#">Ace Savings Account</a></li>
+                <li><a href="#">Silk Womens Savings Account</a></li>
+            </ul>
+            <ul class="drop-1">
+                <p class="head-sec-drop">Current Accounts</p>
+                <li><a href="#">Global Trade Current Account</a></li>
+                <li><a href="#">Startup Premium Current Account</a></li>
+                <li><a href="#">Pro Current Account</a></li>
+                <li><a href="#">Startup Regular Current Account</a></li>
+                <li><a href="#">Astra 15 Current Account</a></li>
+            </ul>
+        </div>
+        <div class="drop-down-1">
+            <p class="head-sec-drop-1">Solitaire <spam class="preminum">Premium</spam>
+            </p>
+            <p class="head-sec-drop-1">Solitaire Business <spam class="preminum">Premium</spam>
+            </p>
+            <ul class="drop-1">
+                <p class="head-sec-drop">Privy League <spam class="preminum">Premium</spam>
+                </p>
+                <li><a href="#">Privy Black</a></li>
+                <li><a href="#">Privy Platinum</a></li>
+                <li><a href="#">Privy Neon</a></li>
+            </ul>
+            <ul class="drop-1">
+                <p class="head-sec-drop">Salary Accounts</p>
+                <li><a href="#">Everyday Account</a></li>
+                <li><a href="#">Kotak Crème</a></li>
+                <li><a href="#">Ace Salary Account</a></li>
+                <li><a href="#">NationBuilders Salary Account</a></li>
+                <li><a href="#">Edge Salary Account</a></li>
+                <li><a href="#">Corporate Salary Privy League Programme</a></li>
+            </ul>
+        </div>
+        <div class="drop-down-1">
+            <ul class="drop-1">
+                <p class="head-sec-drop">Other Accounts</p>
+                <li><a href="#">Stocks</a></li>
+            </ul>
+            <ul class="drop-1">
+                <p class="head-sec-drop">Service Requests</p>
+                <li><a href="#">Check your last 5 transactions</a></li>
+                <li><a href="#">Know your account balance</a></li>
+                <li><a href="#">Activate / Deactivate Passbook</a></li>
+                <li><a href="#">NACH Cancellation</a></li>
+                <li><a href="#">Change of Home Branch</a></li>
+                <li><a href="#">Report fraud / Raise Dispute</a></li>
+            </ul>
+            <ul class="drop-1">
+                <p class="head-sec-drop">Deposits</p>
+                <li><a href="#">Fixed Deposit</a></li>
+                <li><a href="#">Recurring Deposit</a></li>
+                <li><a href="#">Tax Saving Fixed Deposit</a></li>
+                <li><a href="#">Senior Citizen Fixed Deposit</a></li>
+                <li><a href="#">Fixed Deposit Calculator</a></li>
+                <li><a href="#">Recurring Deposit Calculator</a></li>
+            </ul>
         </div>
     </div>
+    <!-- </div> -->
+    <!--drop-2-->
+    <div class="drop-acc-1">
+        <div class="drop-down-1">
+            <ul class="drop-1">
+                <p class="head-sec-drop">Credit Cards <spam class="card-new">new</spam>
+                </p>
+                <li><a href="#">Kotak Solitaire Credit Card</a></li>
+                <li><a href="#">811 Credit Card</a></li>
+                <li><a href="#">Zen Signature Credit Card</a></li>
+                <li><a href="#">Mojo Platinum Credit Card</a></li>
+                <li><a href="#">Myntra Kotak Credit Card</a></li>
+                <li><a href="#">League Platinum Credit Card</a></li>
+                <li><a href="#">White Credit Card</a></li>
+            </ul>
+            <ul class="drop-1">
+                <p class="head-sec-drop">Debit Cards</p>
+                <li><a href="#">PayShopMore Debit Card</a></li>
+                <li><a href="#">Kotak PVR Debit Card</a></li>
+                <li><a href="#">Platinum Debit Card</a></li>
+                <li><a href="#">811 Dream Different Debit Card</a></li>
+                <li><a href="#">Privy League Signature Debit Card</a></li>
+                <li><a href="#">Silk Platinum Debit Card</a></li>
+                <li><a href="#">Debit Card Services</a></li>
+            </ul>
+        </div>
+        <div class="drop-down-1">
+            <ul class="drop-1">
+                <p class="head-sec-drop">Prepaid Services/Spendz</p>
+                <li><a href="#">Forex Card</a></li>
+                <li><a href="#">Recharge Forex Card</a></li>
+                <li><a href="#">Gift Card</a></li>
+                <li><a href="#">Spendz</a></li>
+            </ul>
+            <ul class="drop-1">
+                <p class="head-sec-drop">Credit Card Services</p>
+                <li><a href="#">View Credit Card Statement</a></li>
+                <li><a href="#">Credit Card Bill Payment</a></li>
+                <li><a href="#">Generate PIN</a></li>
+                <li><a href="#">Check Application Status</a></li>
+                <li><a href="#">Register for E-statement</a></li>
+                <li><a href="#">Personal Loan on Credit Card</a></li>
+                <li><a href="#">Apply for Add On Card</a></li>
+            </ul>
+        </div>
+        <div class="drop-down-1">
+
+            <ul class="drop-1">
+                <p class="head-sec-drop">Commercial Credit Cards</p>
+                <li><a href="#">Corporate Credit Card</a></li>
+                <li><a href="#">Purchase Credit Card</a></li>
+                <li><a href="#">Biz Credit Card</a></li>
+
+            </ul>
+            <ul class="drop-1">
+                <p class="head-sec-drop">Other Card Services</p>
+                <li><a href="#">Report lost or stolen card</a></li>
+                <li><a href="#">Generate PIN for cards</a></li>
+                <li><a href="#">Gift Card Dispute/Balance inquiry</a></li>
+                <li><a href="#">Raise Dispute/Report Fraud</a></li>
+                <p class="head-sec-drop">Wearable Payment</p>
+            </ul>
+        </div>
+    </div>
+    <!--end-->
+    <!--drop-3-->
+    <div class="drop-acc-2">
+        <div class="drop-down-1">
+            <ul class="drop-1">
+                <p class="head-sec-drop">Personal Loan</p>
+                <li><a href="#">Apply for a Personal Loan</a></li>
+                <li><a href="#">Personal Loan Eligibility</a></li>
+                <li><a href="#">Personal Loan Documents</a></li>
+                <li><a href="#">Personal Loan Interest Rate</a></li>
+                <li><a href="#">Personal Loan EMI Calculator</a></li>
+                <li><a href="#">Personal Loan Top up</a></li>
+                <li><a href="#">Personal Loan Balance Transfer</a></li>
+            </ul>
+            <ul class="drop-1">
+                <p class="head-sec-drop">Home Loan</p>
+                <li><a href="#">Apply for a Home Loan</a></li>
+                <li><a href="#">Home Loan Eligibility</a></li>
+                <li><a href="#">Home Loan Documents</a></li>
+                <li><a href="#">Home Loan Interest Rate</a></li>
+                <li><a href="#">Home Loan EMI Calculator</a></li>
+                <li><a href="#">Home Improvement Loan</a></li>
+                <li><a href="#">Home Loan Balance Transfer</a></li>
+            </ul>
+        </div>
+        <div class="drop-down-1">
+            <ul class="drop-1">
+                <p class="head-sec-drop">Business Loan</p>
+                <li><a href="#">Apply for a Business Loan</a></li>
+                <li><a href="#">Business Loan EMI Calculator</a></li>
+                <li><a href="#">Business Loan Eligibility</a></li>
+                <li><a href="#">Business Loan Fees & Charges</a></li>
+                <li><a href="#">Business Loan Documents</a></li>
+
+            </ul>
+            <ul class="drop-1">
+                <p class="head-sec-drop">Other Loans</p>
+                <li><a href="#">Kotak Mid-Month Advance</a></li>
+                <li><a href="#">Gold Loan</a></li>
+                <li><a href="#">Loan against Securities</a></li>
+                <li><a href="#">Education Loan</a></li>
+                <li><a href="#">Car Loan</a></li>
+                <li><a href="#">Loan against properties</a></li>
+                <li><a href="#">Healthcare Finance Solutions</a></li>
+            </ul>
+        </div>
+        <div class="drop-down-1">
+
+            <ul class="drop-1">
+                <p class="head-sec-drop">Smart EMI</p>
+                <li><a href="#">Application Process</a></li>
+                <li><a href="#">Smart EMI Eligibility</a></li>
+                <li><a href="#">Kotak Smart EMI Card</a></li>
+                <li><a href="#">Smart EMI Offers</a></li>
+                <li><a href="#">Locate nearest Partner Store</a></li>
+
+            </ul>
+            <ul class="drop-1">
+                <p class="head-sec-drop">Loan Account Services</p>
+                <li><a href="#">Account Information /Statement</a></li>
+                <li><a href="#">View Loan Details</a></li>
+                <li><a href="#">View repayment schedule</a></li>
+                <li><a href="#">Retail Asset Reconstruction</a></li>
+                <li><a href="#">Locate Loan Servicing Branch</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <!--end-->
+    <!--drop-4-->
+    <div class="drop-acc-3">
+        <div class="drop-down-1">
+            <ul class="drop-1">
+                <p class="head-sec-drop">Investments</p>
+                <li><a href="#">Investments Ki Baatein with Nilesh Shah</a></li>
+                <li><a href="#">Mutual Funds</a></li>
+                <li><a href="#">Kotak Cherry</a></li>
+                <li><a href="#">Sip Calculator</a></li>
+                <li><a href="#">Mutual Fund Calculator</a></li>
+                <li><a href="#">Lump Sum Calculator</a></li>
+                <li><a href="#">DEMAT account</a></li>
+                <li><a href="#">Kotak ASBA Facility</a></li>
+                <li><a href="#">Stocks</a></li>
+                <li><a href="#">Portfolio Management Service</a></li>
+                <li><a href="#">Tax saving investments</a></li>
+                <li><a href="#">National Pension System</a></li>
+                <li><a href="#">Sovereign Gold Bonds</a></li>
+            </ul>
+        </div>
+        <div class="drop-down-1">
+            <ul class="drop-1">
+                <p class="head-sec-drop">Life Insurance</p>
+                <li><a href="#">Protection Plans</a></li>
+                <li><a href="#">Savings and Investment Plans</a></li>
+                <li><a href="#">ULIPs</a></li>
+                <li><a href="#">Retirement plans</a></li>
+            </ul>
+            <ul class="drop-1">
+                <p class="head-sec-drop">General Insurance</p>
+                <li><a href="#">Health Insurance</a></li>
+                <li><a href="#">Group Accident Protect</a></li>
+                <li><a href="#">Car Insurance</a></li>
+                <li><a href="#">Two wheeler Insurance</a></li>
+            </ul>
+        </div>
+        <div class="drop-down-1">
+
+            <ul class="drop-1">
+                <p class="head-sec-drop">Deposits</p>
+                <li><a href="#">Fixed Deposit</a></li>
+                <li><a href="#">Recurring Deposit</a></li>
+                <li><a href="#">Tax Saving Fixed Deposit</a></li>
+                <li><a href="#">Senior Citizen Fixed Deposit</a></li>
+                <li><a href="#">Tax Saving Fixed Deposit</a></li>
+                <li><a href="#">Recurring Deposit Calculator</a></li>
+
+            </ul>
+        </div>
+        <div class="drop-down-1">
+
+            <ul class="drop-1">
+                <p class="head-sec-drop">Government Schemes</p>
+                <li><a href="#">National Pension Scheme (NPS)</a></li>
+                <li><a href="#">NPS Calculator</a></li>
+                <li><a href="#">Pradhan Mantri Jeevan Jyoti Bima Yojana</a></li>
+                <li><a href="#">Pradhan Mantri Suraksha Bima Yojana</a></li>
+                <li><a href="#">Atal Pension Yojana</a></li>
+                <li><a href="#">RBI - Floating Rate Savings Bond, 2020 (T)</a></li>
+                <li><a href="#">Sovereign Gold Bond Scheme</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <!--end-->
+    <!--drop-5-->
+    <div class="drop-acc-4">
+        <div class="drop-down-1">
+            <ul class="drop-1">
+                <p class="head-sec-drop">Money Transfer / Forex</p>
+                <li><a href="#">Money Transfer (NEFT/RTGS/IMPS)</a></li>
+                <li><a href="#">UPI</a></li>
+                <li><a href="#">Scan Any QR</a></li>
+                <li><a href="#">Pay your contact</a></li>
+                <li><a href="#">Send money abroad</a></li>
+                <li><a href="#">Foreign Currency Cash Services</a></li>
+                <li><a href="#">Buy Forex Card</a></li>
+            </ul>
+            <ul class="drop-1">
+                <p class="head-sec-drop">Bill Payments / Recharges via BillDesk</p>
+                <li><a href="#">Utility payments</a></li>
+                <li><a href="#">Mobile / Landline postpaid bill payment</a></li>
+                <li><a href="#">Credit Card bill payment</a></li>
+                <li><a href="#">Recharge FASTag</a></li>
+                <li><a href="#">Mobile prepaid recharge</a></li>
+                <li><a href="#">View all payments / recharges</a></li>
+            </ul>
+        </div>
+        <div class="drop-down-1">
+            <ul class="drop-1">
+                <p class="head-sec-drop">Loan & Card Payment</p>
+                <li><a href="#">Credit Card bill payment</a></li>
+                <li><a href="#">Mobile prepaid recharge</a></li>
+                <li><a href="#">View all payments / recharges</a></li>
+                <li><a href="#">Loan EMI payment</a></li>
+                <li><a href="#">Retail Asset Reconstruction</a></li>
+            </ul>
+            <ul class="drop-1">
+                <p class="head-sec-drop">Tax Payment</p>
+                <li><a href="#">Income Tax Payment</a></li>
+                <li><a href="#">Goods & Services Tax (GST)</a></li>
+                <li><a href="#">Customs Duty Payment</a></li>
+                <li><a href="#">Bulk Tax Payment Solutions</a></li>
+            </ul>
+            <ul class="drop-1">
+                <p class="head-sec-drop">FAStag</p>
+                <li><a href="#">Apply for FASTag</a></li>
+                <li><a href="#">Recharge FASTag</a></li>
+                <li><a href="#">FASTag Toll Plazas</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--end-->
+    <!--drop-6-->
+    <div class="drop-acc-5">
+        <div class="drop-down-1">
+            <ul class="drop-1">
+                <p class="head-sec-drop">Popular Categories</p>
+                <li><a href="#">Everyday Specials</a></li>
+                <li><a href="#">Shopping</a></li>
+                <li><a href="#">Electronics</a></li>
+                <li><a href="#">Dining</a></li>
+                <li><a href="#">Travel & Holidays</a></li>
+                <li><a href="#">Health & Wellness</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">View all offers</a></li>
+            </ul>
+        </div>
+        <div class="drop-down-1">
+            <ul class="drop-1">
+                <p class="head-sec-drop">Offers by Payment Type</p>
+                <li><a href="#">Credit Card</a></li>
+                <li><a href="#">Debit Card</a></li>
+                <li><a href="#">Netbanking</a></li>
+                <li><a href="#">Credit Card EMI</a></li>
+                <li><a href="#">Smart EMI</a></li>
+                <li><a href="#">View all offers</a></li>
+            </ul>
+        </div>
+        <div class="drop-down-1">
+
+            <ul class="drop-1">
+                <p class="head-sec-drop">Popular Offers <spam class="card-new">new</spam>
+                </p>
+                <li><a href="#">Apple</a></li>
+                <li><a href="#">Zepto</a></li>
+                <li><a href="#">BigBasket</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <!--end-->
+    <!--drop-7-->
+    <div class="drop-acc-6">
+        <div class="drop-down-1">
+            <ul class="drop-1">
+                <p class="head-sec-drop">Update Profile</p>
+                <li><a href="#">Update your PAN</a></li>
+                <li><a href="#">Update Aadhaar Number</a></li>
+                <li><a href="#">FATCA Declaration</a></li>
+            </ul>
+            <ul class="drop-1">
+                <p class="head-sec-drop">Saving and Current Accounts</p>
+                <li><a href="#">Check your last 5 transactions</a></li>
+                <li><a href="#">Know your account balance</a></li>
+                <li><a href="#">Activate / Deactivate your Passbook</a></li>
+                <li><a href="#">NACH Cancellation</a></li>
+                <li><a href="#">Change of Home Branch</a></li>
+                <li><a href="#">Co-operative Bank Declaration</a></li>
+                <li><a href="#">Report Fraud / Raise Dispute</a></li>
+                <li><a href="#">Track your application status</a></li>
+                <li><a href="#">Activation of Dormant Account</a></li>
+            </ul>
+        </div>
+        <div class="drop-down-1">
+            <ul class="drop-1">
+                <p class="head-sec-drop">Debit and Credit Cards</p>
+                <li><a href="#">Card Token Management</a></li>
+                <li><a href="#">Generate PIN for all your Kotak cards</a></li>
+                <li><a href="#">Activate or deactivate your card</a></li>
+                <li><a href="#">Report a lost or stolen card</a></li>
+                <li><a href="#">Set your card for international usage</a></li>
+                <li><a href="#">Activate or deactivate your card</a></li>
+                <li><a href="#">Personalize your Debit Card from over 70+ images</a></li>
+                <li><a href="#">Raise Dispute / Report Fraud</a></li>
+
+            </ul>
+            <ul class="drop-1">
+                <p class="head-sec-drop">Personal Loans</p>
+                <li><a href="#">Track Personal Loan Application Status</a></li>
+                <li><a href="#">View Existing Loan Details</a></li>
+                <li><a href="#">Download Statement of Account</a></li>
+                <li><a href="#">View Repayment Schedule</a></li>
+                <li><a href="#">Raise a Service Request</a></li>
+            </ul>
+        </div>
+        <div class="drop-down-1">
+
+            <ul class="drop-1">
+                <p class="head-sec-drop">Home Loans</p>
+                <li><a href="#">View Loan Details</a></li>
+                <li><a href="#">Download Statement of Account</a></li>
+                <li><a href="#">View Repayment Schedule</a></li>
+                <li><a href="#">Download Tax Certificate</a></li>
+                <li><a href="#">Raise a Service Request</a></li>
+
+            </ul>
+            <ul class="drop-1">
+                <p class="head-sec-drop">Business Loans / Loan Against Property / Kotak Mid-Month Advance</p>
+                <li><a href="#">Raise a service request</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <!--end-->
     <div class="bgcolour">
-    <div class="hero-sec">
-        <div class="hero-sec-1">
-            <h1>Enjoy exclusive offers with </h1>
-            <h1>Kotak Credit Cards.</h1>
-            <p>Seamless onboarding | Instant 24x7 VKYC</p>
-            <button id="cardblock">Get Your Card Now</button>
-        </div>
-    </div>
-    <div class="title-card-container">
-        <div class="title-card">
-            <img id="title-card-1"
-                src="https://www.kotak.com/content/dam/Kotak/feature-cards/everyday-sa-feature-cad-t.jpg.transform/transformer-width-360-height-202/image.jpg"
-                alt="title-card">
-            <p id="title-card-2">EVERYDAY SAVING ACCOUT</p>
-            <div class="tc3">
-                <h4 class="title-card-3">Step up with the right </h4>
-                <h4 class="title-card-3"> Savings Account</h4>
-            </div>
-
-            <p class="title-card-4">Enjoy offers on BookMyShow, EazyDiner and </p>
-            <p class="title-card-4">many more popular brands</p>
-            <p id="title-card-5"><a href="#">Apply Now</a></p>
-        </div>
-        <div class="title-card">
-            <img id="title-card-1"
-                src="https://www.kotak.com/content/dam/Kotak/feature-cards/home-loan-feature-card-t.jpg.transform/transformer-width-360-height-202/image.jpg"
-                alt="title-card">
-            <p id="title-card-2">HOME LOANS</p>
-            <div class="tc3">
-                <h4 class="title-card-3">Aspire to own a home in</h4>
-                <h4 class="title-card-3"> your dream pincode?</h4>
-            </div>
-            <p class="title-card-4">Make it possible with Home Loans starting at</p>
-            <p class="title-card-4"> just 8.20% p.a.</p>
-            <p id="title-card-5"><a href="#">Apply Now</a></p>
-        </div>
-        <div class="title-card">
-            <img id="title-card-1"
-                src="https://www.kotak.com/content/dam/Kotak/feature-cards/pl-feature-card-t.jpg.transform/transformer-width-360-height-202/image.jpg"
-                alt="title-card">
-            <p id="title-card-2">PERSONAL LOANS</p>
-            <div class="tc3">
-                <h4 class="title-card-3">Power your aspirations</h4>
-                <h4 class="title-card-3">with Personal Loans</h4>
-            </div>
-            <p class="title-card-4">Get loan up to Rs.35 lakhs with complete/p>
-            <p class="title-card-4">ease</p>
-            <p id="title-card-5"><a href="#">Apply Now</a></p>
-        </div>
-    </div>
-
-    <div class="title-card-container-1">
-        <div class="title-card">
-            <img id="title-card-1"
-                src=https://www.kotak.com/content/dam/Kotak/feature-cards/current-account-feature-card-t.jpg.transform/transformer-width-360-height-202/image.jpg
-                alt="title-card">
-            <p id="title-card-2">CURRENT ACCOUNT</p>
-            <div class="tc3">
-                <h4 class="title-card-3">Power your</h4>
-                <h4 class="title-card-3">entrepreneurial dreams</h4>
-            </div>
-
-            <p class="title-card-4">Enjoy simplified transactions and grow the</p>
-            <p class="title-card-4">smart way</p>
-            <p id="title-card-5"><a href="#">Apply Now</a></p>
-        </div>
-        <div class="title-card">
-            <img id="title-card-1"
-                src="https://www.kotak.com/content/dam/Kotak/feature-cards/business-capital-feature-card-t.jpg.transform/transformer-width-360-height-202/image.jpg"
-                alt="title-card">
-            <p id="title-card-2">Business Lending</p>
-            <div class="tc3">
-                <h4 class="title-card-3">Not enough funds for</h4>
-                <h4 class="title-card-3">your business dreams?</h4>
-            </div>
-            <p class="title-card-4">Flexible collateral-free loans from ₹3 lakh to</p>
-            <p class="title-card-4">₹1 crore</p>
-            <p id="title-card-5"><a href="#">Apply Now</a></p>
-        </div>
-        <div class="title-card">
-            <img id="title-card-1"
-                src="https://www.kotak.com/content/dam/Kotak/feature-cards/working-capital-feature-card-t.jpg.transform/transformer-width-360-height-202/image.jpg"
-                alt="title-card">
-            <p id="title-card-2">Working Capital</p>
-            <div class="tc3">
-                <h4 class="title-card-3">Your big ambitions</h4>
-                <h4 class="title-card-3">need smart capital</h4>
-            </div>
-            <p class="title-card-4">Answer business opportunities with</p>
-            <p class="title-card-4"> confidence, thanks to our working capital solutions</p>
-            <p id="title-card-5"><a href="#">Apply Now</a></p>
-        </div>
-    </div>
-
-    <div class="hero-sec-container">
-        <div class="hero-sec-3">
-            <div class="media-video">
-                <iframe width="689" height="337" src="https://www.youtube.com/embed/sG9Gkv-dPhQ?si=765GX_L5uigh4uG9"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="hero-sec">
+            <div class="hero-sec-1">
+                <h1>Enjoy exclusive offers with </h1>
+                <h1>Kotak Credit Cards.</h1>
+                <p>Seamless onboarding | Instant 24x7 VKYC</p>
+                <button id="cardblock">Get Your Card Now</button>
             </div>
         </div>
-        <div class="title-card-hero">
-            <p id="title-card-2-hero">Hausla hai toh ho jayega</p>
-            <img id="title-card-1-hero"
-                src="https://www.kotak.com/content/dam/Kotak/feature-cards/housla-hai-to-ho-jayega_girl-image.jpg.transform/transformer-width-495-height-242/image.jpg"
-                alt="title-card">
-            <p class="title-card-4-hero">At Kotak, we believe in the fearless trailblazers—the ones who dare to dream bigger,
-                push boundaries, and turn challenges into opportunities. That’s why we are here—to back you with
-                financial solutions that evolve with your needs, empowering you to chase the extraordinary. <span class="bol">Because when
-                you have Hausla, anything is possible.</span></p>
-        </div>
-    </div>
-    <div id="know">
-        <h2 id="know1">Knowledge Hub</h2>
-    </div>
-    <div class="hero-sec-container-1">
-        <div class="hero-4">
-            <div class="hero-bg">
-            <p class="hero-5">Stories in focus</p>
-            <h4 class="hero-6">Browse through our specially curated collection of stories, handpicked for your reading pleasure</h4>
-            <p class="hero-7">Read more</p>
+        <div class="title-card-container">
+            <div class="title-card">
+                <img id="title-card-1"
+                    src="https://www.kotak.com/content/dam/Kotak/feature-cards/everyday-sa-feature-cad-t.jpg.transform/transformer-width-360-height-202/image.jpg"
+                    alt="title-card">
+                <p id="title-card-2">EVERYDAY SAVING ACCOUT</p>
+                <div class="tc3">
+                    <h4 class="title-card-3">Step up with the right </h4>
+                    <h4 class="title-card-3"> Savings Account</h4>
+                </div>
+
+                <p class="title-card-4">Enjoy offers on BookMyShow, EazyDiner and </p>
+                <p class="title-card-4">many more popular brands</p>
+                <p id="title-card-5"><a href="#">Apply Now</a></p>
             </div>
-        </div>
-        <div class="hero-4-1">
-            <p class="hero-4-1-p-0">Stories in focus</p>
-            <div class="hero-row">
-            <img class="hero-4-1-img"src="https://www.kotak.com/content/dam/Kotak/article-images/hero-banners/what-are-the-benefits-of-activmoney-savings-account-t.jpg" alt="image">
-            <p class="hero-4-1-p">What are the Benefits of ActivMoney Savings Account</p>
-            </div><hr>
-
-            <div class="hero-row">
-            <img class="hero-4-1-img"src="https://www.kotak.com/content/dam/Kotak/herosliderbanner/how-desk-art.png" alt="image">
-            <p class="hero-4-1-p">How to Open an Online Savings Account</p>
-            </div><hr>
-
-            <div class="hero-row">
-            <img class="hero-4-1-img"src="https://www.kotak.com/content/dam/Kotak/article-images/product-card/calculate-interest-on-savings-account-358x201.jpg" alt="image">
-            <p class="hero-4-1-p">How to Calculate Interest on a Savings Account: Checkout Interest Formula & Policies</p>
-            </div><hr>
-
-            <div class="hero-row">
-            <img class="hero-4-1-img"src="https://www.kotak.com/content/dam/Kotak/guidance/cards/key-benefits-of-senior-citizen-savings-account-t.jpg" alt="image">
-            <p class="hero-4-1-p">Senior citizen savings account - Key benefits of opening this account</p>
-            </div><hr>
-
-            <div class="hero-row">
-            <img class="hero-4-1-img"src="https://www.kotak.com/content/dam/Kotak/article-images/hero-banners/how-to-choose-the-best-current-account-t.jpg" alt="image">
-            <p class="hero-4-1-p">How to choose the best Current Account for your business?</p>
+            <div class="title-card">
+                <img id="title-card-1"
+                    src="https://www.kotak.com/content/dam/Kotak/feature-cards/home-loan-feature-card-t.jpg.transform/transformer-width-360-height-202/image.jpg"
+                    alt="title-card">
+                <p id="title-card-2">HOME LOANS</p>
+                <div class="tc3">
+                    <h4 class="title-card-3">Aspire to own a home in</h4>
+                    <h4 class="title-card-3"> your dream pincode?</h4>
+                </div>
+                <p class="title-card-4">Make it possible with Home Loans starting at</p>
+                <p class="title-card-4"> just 8.20% p.a.</p>
+                <p id="title-card-5"><a href="#">Apply Now</a></p>
             </div>
-
-            <p class="hero-4-1-p-0-1">View all stories</p>
-        </div>
-    </div>
-    <div id="know">
-        <h2 id="know1">Need Help?</h2>
-    </div>
-
-    <div class="needhelp-container">
-
-        <div class="needhelp">
-            <div class="needhelp-img">
-                <img src="https://www.kotak.com/content/dam/Kotak/svg-icons/help-center.png" alt="">
-            </div>
-            <div class="needhelp-p">
-                <p class="needhelp-p-1">Visit Help Center</p>
-                <p class="needhelp-p-2">Get information on all topics</p>
+            <div class="title-card">
+                <img id="title-card-1"
+                    src="https://www.kotak.com/content/dam/Kotak/feature-cards/pl-feature-card-t.jpg.transform/transformer-width-360-height-202/image.jpg"
+                    alt="title-card">
+                <p id="title-card-2">PERSONAL LOANS</p>
+                <div class="tc3">
+                    <h4 class="title-card-3">Power your aspirations</h4>
+                    <h4 class="title-card-3">with Personal Loans</h4>
+                </div>
+                <p class="title-card-4">Get loan up to Rs.35 lakhs with complete/p>
+                <p class="title-card-4">ease</p>
+                <p id="title-card-5"><a href="#">Apply Now</a></p>
             </div>
         </div>
 
-        <div class="needhelp">
-            <div class="needhelp-img">
-                <img src="https://www.kotak.com/content/dam/Kotak/svg-icons/help-center.png" alt="">
+        <div class="title-card-container-1">
+            <div class="title-card">
+                <img id="title-card-1"
+                    src=https://www.kotak.com/content/dam/Kotak/feature-cards/current-account-feature-card-t.jpg.transform/transformer-width-360-height-202/image.jpg
+                    alt="title-card">
+                <p id="title-card-2">CURRENT ACCOUNT</p>
+                <div class="tc3">
+                    <h4 class="title-card-3">Power your</h4>
+                    <h4 class="title-card-3">entrepreneurial dreams</h4>
+                </div>
+
+                <p class="title-card-4">Enjoy simplified transactions and grow the</p>
+                <p class="title-card-4">smart way</p>
+                <p id="title-card-5"><a href="#">Apply Now</a></p>
             </div>
-            <div class="needhelp-p">
-                <p class="needhelp-p-1">Contact us</p>
-                <p class="needhelp-p-2">Get in touch with a phone banking expert</p>
+            <div class="title-card">
+                <img id="title-card-1"
+                    src="https://www.kotak.com/content/dam/Kotak/feature-cards/business-capital-feature-card-t.jpg.transform/transformer-width-360-height-202/image.jpg"
+                    alt="title-card">
+                <p id="title-card-2">Business Lending</p>
+                <div class="tc3">
+                    <h4 class="title-card-3">Not enough funds for</h4>
+                    <h4 class="title-card-3">your business dreams?</h4>
+                </div>
+                <p class="title-card-4">Flexible collateral-free loans from ₹3 lakh to</p>
+                <p class="title-card-4">₹1 crore</p>
+                <p id="title-card-5"><a href="#">Apply Now</a></p>
+            </div>
+            <div class="title-card">
+                <img id="title-card-1"
+                    src="https://www.kotak.com/content/dam/Kotak/feature-cards/working-capital-feature-card-t.jpg.transform/transformer-width-360-height-202/image.jpg"
+                    alt="title-card">
+                <p id="title-card-2">Working Capital</p>
+                <div class="tc3">
+                    <h4 class="title-card-3">Your big ambitions</h4>
+                    <h4 class="title-card-3">need smart capital</h4>
+                </div>
+                <p class="title-card-4">Answer business opportunities with</p>
+                <p class="title-card-4"> confidence, thanks to our working capital solutions</p>
+                <p id="title-card-5"><a href="#">Apply Now</a></p>
             </div>
         </div>
 
-        <div class="needhelp">
-            <div class="needhelp-img">
-                <img src="https://www.kotak.com/content/dam/Kotak/svg-icons/locate-us.png" alt="">
+        <div class="hero-sec-container">
+            <div class="hero-sec-3">
+                <div class="media-video">
+                    <iframe width="689" height="337" src="https://www.youtube.com/embed/sG9Gkv-dPhQ?si=765GX_L5uigh4uG9"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
             </div>
-            <div class="needhelp-p">
-                <p class="needhelp-p-1">Locate us</p>
-                <p class="needhelp-p-2">Find a branch or ATM near you</p>
+            <div class="title-card-hero">
+                <p id="title-card-2-hero">Hausla hai toh ho jayega</p>
+                <img id="title-card-1-hero"
+                    src="https://www.kotak.com/content/dam/Kotak/feature-cards/housla-hai-to-ho-jayega_girl-image.jpg.transform/transformer-width-495-height-242/image.jpg"
+                    alt="title-card">
+                <p class="title-card-4-hero">At Kotak, we believe in the fearless trailblazers—the ones who dare to
+                    dream bigger,
+                    push boundaries, and turn challenges into opportunities. That’s why we are here—to back you with
+                    financial solutions that evolve with your needs, empowering you to chase the extraordinary. <span
+                        class="bol">Because when
+                        you have Hausla, anything is possible.</span></p>
+            </div>
+        </div>
+        <div id="know">
+            <h2 id="know1">Knowledge Hub</h2>
+        </div>
+        <div class="hero-sec-container-1">
+            <div class="hero-4">
+                <div class="hero-bg">
+                    <p class="hero-5">Stories in focus</p>
+                    <h4 class="hero-6">Browse through our specially curated collection of stories, handpicked for your
+                        reading pleasure</h4>
+                    <p class="hero-7">Read more</p>
+                </div>
+            </div>
+            <div class="hero-4-1">
+                <p class="hero-4-1-p-0">Stories in focus</p>
+                <div class="hero-row">
+                    <img class="hero-4-1-img"
+                        src="https://www.kotak.com/content/dam/Kotak/article-images/hero-banners/what-are-the-benefits-of-activmoney-savings-account-t.jpg"
+                        alt="image">
+                    <p class="hero-4-1-p">What are the Benefits of ActivMoney Savings Account</p>
+                </div>
+                <hr>
+
+                <div class="hero-row">
+                    <img class="hero-4-1-img"
+                        src="https://www.kotak.com/content/dam/Kotak/herosliderbanner/how-desk-art.png" alt="image">
+                    <p class="hero-4-1-p">How to Open an Online Savings Account</p>
+                </div>
+                <hr>
+
+                <div class="hero-row">
+                    <img class="hero-4-1-img"
+                        src="https://www.kotak.com/content/dam/Kotak/article-images/product-card/calculate-interest-on-savings-account-358x201.jpg"
+                        alt="image">
+                    <p class="hero-4-1-p">How to Calculate Interest on a Savings Account: Checkout Interest Formula &
+                        Policies</p>
+                </div>
+                <hr>
+
+                <div class="hero-row">
+                    <img class="hero-4-1-img"
+                        src="https://www.kotak.com/content/dam/Kotak/guidance/cards/key-benefits-of-senior-citizen-savings-account-t.jpg"
+                        alt="image">
+                    <p class="hero-4-1-p">Senior citizen savings account - Key benefits of opening this account</p>
+                </div>
+                <hr>
+
+                <div class="hero-row">
+                    <img class="hero-4-1-img"
+                        src="https://www.kotak.com/content/dam/Kotak/article-images/hero-banners/how-to-choose-the-best-current-account-t.jpg"
+                        alt="image">
+                    <p class="hero-4-1-p">How to choose the best Current Account for your business?</p>
+                </div>
+
+                <p class="hero-4-1-p-0-1">View all stories</p>
+            </div>
+        </div>
+        <div id="know">
+            <h2 id="know1">Need Help?</h2>
+        </div>
+
+        <div class="needhelp-container">
+
+            <div class="needhelp">
+                <div class="needhelp-img">
+                    <img src="https://www.kotak.com/content/dam/Kotak/svg-icons/help-center.png" alt="">
+                </div>
+                <div class="needhelp-p">
+                    <p class="needhelp-p-1">Visit Help Center</p>
+                    <p class="needhelp-p-2">Get information on all topics</p>
+                </div>
+            </div>
+
+            <div class="needhelp">
+                <div class="needhelp-img">
+                    <img src="https://www.kotak.com/content/dam/Kotak/svg-icons/help-center.png" alt="">
+                </div>
+                <div class="needhelp-p">
+                    <p class="needhelp-p-1">Contact us</p>
+                    <p class="needhelp-p-2">Get in touch with a phone banking expert</p>
+                </div>
+            </div>
+
+            <div class="needhelp">
+                <div class="needhelp-img">
+                    <img src="https://www.kotak.com/content/dam/Kotak/svg-icons/locate-us.png" alt="">
+                </div>
+                <div class="needhelp-p">
+                    <p class="needhelp-p-1">Locate us</p>
+                    <p class="needhelp-p-2">Find a branch or ATM near you</p>
+                </div>
+            </div>
+
+            <div class="needhelp">
+                <div class="needhelp-img">
+                    <img src="https://www.kotak.com/content/dam/Kotak/svg-icons/report-fraud.png" alt="">
+                </div>
+                <div class="needhelp-p">
+                    <p class="needhelp-p-1">Report a fraud</p>
+                    <p class="needhelp-p-2">Raise a dispute or report suspicious transaction</p>
+                </div>
+            </div>
+
+            <div class="needhelp">
+                <div class="needhelp-img">
+                    <img src="https://www.kotak.com/content/dam/Kotak/svg-icons/lodge-complaint.png" alt="">
+                </div>
+                <div class="needhelp-p">
+                    <p class="needhelp-p-1">Lodge a complaint</p>
+                    <p class="needhelp-p-2">Raise a grievance for any service deficiency</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="title-card-container">
+            <div class="title-card">
+                <img id="title-card-1"
+                    src="https://www.kotak.com/content/dam/Kotak/Product-Card-Images-Mobile/bhim-upi-feat-card.jpg.transform/transformer-width-360-height-202/image.jpg"
+                    alt="title-card">
+                <p id="title-card-2">Pay in a Flash!</p>
+                <p class="title-card-4">Scan, tap, and pay—Make UPI payments on-</p>
+                <p class="title-card-4">the-go with the New Kotak Bank App.</p>
+                <p id="title-card-5"><a href="#">Know more</a></p>
+            </div>
+            <div class="title-card">
+                <img id="title-card-1"
+                    src="https://www.kotak.com/content/dam/Kotak/product_card_images/mb-app-new-t.jpg.transform/transformer-width-360-height-202/image.jpg"
+                    alt="title-card">
+                <p id="title-card-2">Ways to Bank</p>
+                <div class="tc3">
+                    <h4 class="title-card-3">Did you know? One app</h4>
+                    <h4 class="title-card-3">can do it all!</h4>
+                </div>
+                <p class="title-card-4">Make it possible with Home Loans starting at</p>
+                <p class="title-card-4"> just 8.20% p.a.</p>
+                <p id="title-card-5"><a href="#">Know more</a></p>
+            </div>
+            <div class="title-card">
+                <img id="title-card-1"
+                    src="https://www.kotak.com/content/dam/Kotak/product_card_images/ProductFeature-demat-t.jpg.transform/transformer-width-360-height-202/image.jpg"
+                    alt="title-card">
+                <p id="title-card-2">Investment</p>
+                <div class="tc3">
+                    <h4 class="title-card-3">Kotak Trinity Account</h4>
+                </div>
+                <p class="title-card-4">Upgrade your Savings A/c to a 3-in-1 A/c. (Savings + Trading + Demat A/c). Also
+                    avail Zero Brokerage Trading plans</p>
+                <p id="title-card-5"><a href="#">Know more</a></p>
             </div>
         </div>
 
-        <div class="needhelp">
-            <div class="needhelp-img">
-                <img src="https://www.kotak.com/content/dam/Kotak/svg-icons/report-fraud.png" alt="">
+        <div class="title-card-container">
+            <div class="title-card">
+                <img id="title-card-1" src="https://www.kotak.com/content/dam/Kotak/deals-offers/apple-web-offer-t.jpg"
+                    alt="title-card">
+                <p id="title-card-2">Apple</p>
+                <p class="title-card-4">Get upto INR 10000 instant cashback on Apple devices via Kotak Credit Cards &
+                    Credit Cards EMI</p>
+                <p class="title-card-4">Valid till: 28 June 2025</p>
+                <p id="title-card-5"><a href="#">Know more</a></p>
             </div>
-            <div class="needhelp-p">
-                <p class="needhelp-p-1">Report a fraud</p>
-                <p class="needhelp-p-2">Raise a dispute or report suspicious transaction</p>
+            <div class="title-card">
+                <img id="title-card-1"
+                    src="https://www.kotak.com/content/dam/Kotak/product_card_images/mb-app-new-t.jpg.transform/transformer-width-360-height-202/image.jpg"
+                    alt="title-card">
+                <div class="tc3">
+                    <h4 class="title-card-3">Tune in to Channel Red</h4>
+                </div>
+                <p class="title-card-4">Explore a treasure trove of information about our products and services on
+                    Digital Platforms.</p>
+                <p id="title-card-5"><a href="#">Know more</a></p>
+            </div>
+            <div class="title-card">
+                <img id="title-card-1"
+                    src="https://www.kotak.com/content/dam/Kotak/product_card_images/ProductFeature-demat-t.jpg.transform/transformer-width-360-height-202/image.jpg"
+                    alt="title-card">
+                <p id="title-card-2">Investment</p>
+                <div class="tc3">
+                    <h4 class="title-card-3">Kotak Trinity Account</h4>
+                </div>
+                <p class="title-card-4">Upgrade your Savings A/c to a 3-in-1 A/c. (Savings + Trading + Demat A/c). Also
+                    avail Zero Brokerage Trading plans</p>
+                <p id="title-card-5"><a href="#">Know more</a></p>
             </div>
         </div>
-
-        <div class="needhelp">
-            <div class="needhelp-img">
-                <img src="https://www.kotak.com/content/dam/Kotak/svg-icons/lodge-complaint.png" alt="">
-            </div>
-            <div class="needhelp-p">
-                <p class="needhelp-p-1">Lodge a complaint</p>
-                <p class="needhelp-p-2">Raise a grievance for any service deficiency</p>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="title-card-container">
-        <div class="title-card">
-            <img id="title-card-1"
-                src="https://www.kotak.com/content/dam/Kotak/Product-Card-Images-Mobile/bhim-upi-feat-card.jpg.transform/transformer-width-360-height-202/image.jpg"
-                alt="title-card">
-            <p id="title-card-2">Pay in a Flash!</p>
-            <p class="title-card-4">Scan, tap, and pay—Make UPI payments on-</p>
-            <p class="title-card-4">the-go with the New Kotak Bank App.</p>
-            <p id="title-card-5"><a href="#">Know more</a></p>
-        </div>
-        <div class="title-card">
-            <img id="title-card-1"
-                src="https://www.kotak.com/content/dam/Kotak/product_card_images/mb-app-new-t.jpg.transform/transformer-width-360-height-202/image.jpg"
-                alt="title-card">
-            <p id="title-card-2">Ways to Bank</p>
-            <div class="tc3">
-                <h4 class="title-card-3">Did you know? One app</h4>
-                <h4 class="title-card-3">can do it all!</h4>
-            </div>
-            <p class="title-card-4">Make it possible with Home Loans starting at</p>
-            <p class="title-card-4"> just 8.20% p.a.</p>
-            <p id="title-card-5"><a href="#">Know more</a></p>
-        </div>
-        <div class="title-card">
-            <img id="title-card-1"
-                src="https://www.kotak.com/content/dam/Kotak/product_card_images/ProductFeature-demat-t.jpg.transform/transformer-width-360-height-202/image.jpg"
-                alt="title-card">
-            <p id="title-card-2">Investment</p>
-            <div class="tc3">
-                <h4 class="title-card-3">Kotak Trinity Account</h4>
-            </div>
-            <p class="title-card-4">Upgrade your Savings A/c to a 3-in-1 A/c. (Savings + Trading + Demat A/c). Also avail Zero Brokerage Trading plans</p>
-            <p id="title-card-5"><a href="#">Know more</a></p>
-        </div>
-    </div>
-
-    <div class="title-card-container">
-        <div class="title-card">
-            <img id="title-card-1"
-                src="https://www.kotak.com/content/dam/Kotak/deals-offers/apple-web-offer-t.jpg"
-                alt="title-card">
-            <p id="title-card-2">Apple</p>
-            <p class="title-card-4">Get upto INR 10000  instant cashback on  Apple devices via Kotak Credit Cards & Credit Cards EMI</p>
-            <p class="title-card-4">Valid till: 28 June 2025</p>
-            <p id="title-card-5"><a href="#">Know more</a></p>
-        </div>
-        <div class="title-card">
-            <img id="title-card-1"
-                src="https://www.kotak.com/content/dam/Kotak/product_card_images/mb-app-new-t.jpg.transform/transformer-width-360-height-202/image.jpg"
-                alt="title-card">
-            <div class="tc3">
-                <h4 class="title-card-3">Tune in to Channel Red</h4>
-            </div>
-            <p class="title-card-4">Explore a treasure trove of information about our products and services on Digital Platforms.</p>
-            <p id="title-card-5"><a href="#">Know more</a></p>
-        </div>
-        <div class="title-card">
-            <img id="title-card-1"
-                src="https://www.kotak.com/content/dam/Kotak/product_card_images/ProductFeature-demat-t.jpg.transform/transformer-width-360-height-202/image.jpg"
-                alt="title-card">
-            <p id="title-card-2">Investment</p>
-            <div class="tc3">
-                <h4 class="title-card-3">Kotak Trinity Account</h4>
-            </div>
-            <p class="title-card-4">Upgrade your Savings A/c to a 3-in-1 A/c. (Savings + Trading + Demat A/c). Also avail Zero Brokerage Trading plans</p>
-            <p id="title-card-5"><a href="#">Know more</a></p>
-        </div>
-    </div>
     </div>
 
     <!-- Footer  -->
     <footer>
         <div class="back-top">
-        <h4 class="back-top-1">Back to Top</h4>
+            <h4 class="back-top-1">Back to Top</h4>
         </div>
         <div class="footer-content-main">
-        <div class="footer-content">
-            <p><b>Channel Red *New*</b></p>
-            <p>Mobile Banking | Net Banking | Manage your account | Transfer money | Recharge / Make payments | Credit
-                Cards | Debit Cards | Loans | National Pension Scheme | Deposits</p>
-            <hr>
-        </div>
-        <div class="footer-content-1">
-            <p><b>Products</b></p>
-            <p>Home Loan | Personal Loan | Savings Account | Current Account | Credit Cards | Mutual Funds | National
-                Pension Scheme (NPS) | Business Loan | Zero Balance Savings Account | Life Insurance |</p>
-            <p>Fixed Deposit | Recurring Deposit | Loan against property | Kotak811 Savings Account | Kotak811 Current
-                Account | Car Loan | Gold Loan | Education Loan | Prepaid Card | Salary Account |</p>
-            <p>Sovereign Gold Bond | BBPS | Forex Card</p>
-            <hr>
-        </div>
-        <div class="footer-content-2">
-            <p><b>Help Center</b></p>
-            <p>Account | Issue with Transactions | Credit Card | 811 Account Fund Transfer, Bill Payment & Recharge |
-                Loans | FASTag | Fixed Deposit (FD) and Recurring Deposit (RD) | NRI Services |</p>
-            <p>My Profile - Mobile Number, Aadhaar, Email ID & Address | Forex | Insurance (Premium payments, Tax
-                benefit etc ) | Investments (Scheme Issues, Dividend related) | Working Capital</p>
-        </div>
+            <div class="footer-content">
+                <p><b>Channel Red *New*</b></p>
+                <p>Mobile Banking | Net Banking | Manage your account | Transfer money | Recharge / Make payments |
+                    Credit
+                    Cards | Debit Cards | Loans | National Pension Scheme | Deposits</p>
+                <hr>
+            </div>
+            <div class="footer-content-1">
+                <p><b>Products</b></p>
+                <p>Home Loan | Personal Loan | Savings Account | Current Account | Credit Cards | Mutual Funds |
+                    National
+                    Pension Scheme (NPS) | Business Loan | Zero Balance Savings Account | Life Insurance |</p>
+                <p>Fixed Deposit | Recurring Deposit | Loan against property | Kotak811 Savings Account | Kotak811
+                    Current
+                    Account | Car Loan | Gold Loan | Education Loan | Prepaid Card | Salary Account |</p>
+                <p>Sovereign Gold Bond | BBPS | Forex Card</p>
+                <hr>
+            </div>
+            <div class="footer-content-2">
+                <p><b>Help Center</b></p>
+                <p>Account | Issue with Transactions | Credit Card | 811 Account Fund Transfer, Bill Payment & Recharge
+                    |
+                    Loans | FASTag | Fixed Deposit (FD) and Recurring Deposit (RD) | NRI Services |</p>
+                <p>My Profile - Mobile Number, Aadhaar, Email ID & Address | Forex | Insurance (Premium payments, Tax
+                    benefit etc ) | Investments (Scheme Issues, Dividend related) | Working Capital</p>
+            </div>
         </div>
         <div class="footer-container">
             <div class="footer-bottom">
@@ -558,14 +933,60 @@
                 </ul>
             </div>
         </div>
+        <div class="foot-1">
+            <div class="social-icon">
+                
+                <div class="social-icon-1">
+                    <p>Connect With Us</p>
+                    <a class="soical" href="https://www.facebook.com/KotakBank/" target="_blank" rel="nofollow">
+                        <i class="fa-brands fa-facebook-f icon-facebook"></i>
+                    </a>
+                    <a class="soical" href="https://twitter.com/kotakbankltd?lang=en" target="_blank" rel="nofollow">
+                        <i class="fa-brands fa-twitter icon-twitter"></i>
+                    </a>
+                    <a class="soical" href="https://www.youtube.com/user/KotakBankIndia" target="_blank" rel="nofollow">
+                        <i class="fa-brands fa-youtube icon-youtube"></i>
+                    </a>
+                    <a class="soical" href="https://www.linkedin.com/company/kotak-mahindra-bank" target="_blank"
+                        rel="nofollow">
+                        <i class="fa-brands fa-linkedin icon-linkedin"></i>
+                    </a>
+                </div>
+                <div class="social-2">
+                    <p>Install the Kotak Bank App</p>
+                    <img src="https://www.kotak.com/content/dam/Kotak/google-play.png" alt="">
+                    <img src="https://www.kotak.com/content/dam/Kotak/apple-store.png" alt="">
+                </div>
+                <div class="social-2">
+                    <img src="https://www.kotak.com/content/dam/Kotak/entrust.png" alt="">
+                    <img src="https://www.kotak.com/content/dam/Kotak/verisign.png" alt="">
+                </div>
+                <div class="dropdown-container-chgpt">
+                    <select class="group-dropdown-chgpt">
+                        <option selected disabled>Kotak Group Companies ▼</option>
+                        <option>Kotak Asset Management</option>
+                        <option>Zurich Kotak General Insurance</option>
+                        <option>Kotak Institutional Equities</option>
+                        <option>Kotak International Business</option>
+                        <option>Kotak Investment Advisors</option>
+                        <option>Kotak Investment Banking</option>
+                        <option>Kotak Life Insurance</option>
+                        <option>Kotak Mahindra Investments</option>
+                        <option>Kotak Mahindra Prime</option>
+                        <option>Kotak Securities Limited</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
         <div class="copyright1">
             <p class="copyright">Copyright Kotak Mahindra Bank Limited. | Disclaimer | Privacy Policy | Terms &
                 Conditions</p>
         </div>
 
     </footer>
-    
 
+    <script src="../js/home.js"></script>
 </body>
 
 </html>
